@@ -70,7 +70,7 @@ export default function App() {
                   </Form.Item>
                   
 
-                  {fields.length >= 1 ? (
+                 
                     <MinusCircleOutlined
                       className="dynamic-delete-button"
                       style={{ margin: "0 8px" }}
@@ -78,7 +78,7 @@ export default function App() {
                         remove(field.name);
                       }}
                     />
-                  ) : null}
+            
                 </Form.Item>
               ))}
               <Form.Item>
